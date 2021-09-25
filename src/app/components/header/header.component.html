@@ -1,0 +1,11 @@
+<div class="header">
+  <div class="wrapper " *ngIf="!myPath">
+    <div class="logo-container">
+      <img class="logo" src="/assets/images/ifx-logo.png" alt="ifx-logo" height="70px" width="70px">
+    </div>
+    <div class="d-flex">
+      <a class="nav-link text-white mr-5" [routerLink]="['/monsters']"  >Monsters</a>
+      <a class="nav-link text-white" [routerLink]="['/races']" >Races</a>
+      <a class="nav-link text-white" (click)="logout()">logout</a>
+    </div>
+</div>

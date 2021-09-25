@@ -1,0 +1,22 @@
+.card-header{
+  background: rgb(0,26,52);
+  background: linear-gradient(90deg, rgba(0,26,52,1) 0%, rgba(131,58,180,1) 50%, rgba(0,26,52,1) 100%);
+  color: #fff;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.paginate-center{
+  margin: 0 auto ;
+}
+
+.box-info{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}

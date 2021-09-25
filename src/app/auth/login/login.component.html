@@ -1,0 +1,21 @@
+<div class="contianer">
+  <div class="wrapper">
+    <div class="card ">
+      <section >
+        <div class="row">
+          <div class="col ">
+            <img src="/assets/images/ifx-logo.png" alt="ifx-logo" height="90%" width="90%">
+          </div>
+          <div class="col">
+            <h2 class="text-center">IFX - Monsters App</h2>
+            <div class="d-grid gap-2 mt-5">
+              <input type="text" class="form-control" placeholder="Enter your Name" name="userName" [(ngModel)]="name" />
+              <button [disabled]="btnDisabled" class="btn btn-primary btn-block" (click)="logIn()">
+                Jump In !</button>
+              </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
